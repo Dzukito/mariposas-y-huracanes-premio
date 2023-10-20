@@ -1,0 +1,118 @@
+body {
+  background-color: black;
+  color: white;   
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+  
+#story-image {
+  width: 100%;
+  max-width:400px;
+  max-height: 900px;
+  margin-bottom: 20px;
+}
+#portada {
+  width: 100%;
+  max-width:500px;
+  max-height: 1000px;
+  margin-bottom: 20px;
+}
+
+#change-story-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#change-story-button:hover {
+  background-color: white;
+  color: grey;
+}
+#noSaltar {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#noSaltar:hover {
+  background-color: white;
+  color: black;
+}
+#change-story-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#change-story-button:hover {
+  background-color: white;
+  color: grey;
+}
+
+
+
+
+.glitch-effect {
+  animation: glitch-animation 1s infinite;
+}
+
+@keyframes glitch-animation {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, 5px);
+  }
+  40% {
+    transform: translate(5px, -5px);
+  }
+  60% {
+    transform: translate(-5px, -5px);
+  } 
+  80% {
+    transform: translate(5px, 5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.time-travel-effect {
+  animation: time-travel-animation 2s ease-in-out;
+}
+
+@keyframes time-travel-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#audioContainerMuerte {
+  display: none;
+}
+#audioContainerMuerte2 {
+  display: none;
+}
